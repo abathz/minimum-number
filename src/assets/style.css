@@ -5,12 +5,18 @@ body{
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 30px 2fr;
+  grid-template-rows: 1fr 55px 2fr;
   grid-gap: 10px;
+}
+
+label {
+  grid-column-start: 2;
+  grid-row-start: 2;
 }
 
 input {
   font-size: 12pt;
+  margin-top: 25px;
   height: 25px;
   grid-column-start: 2;
   grid-row-start: 2;
