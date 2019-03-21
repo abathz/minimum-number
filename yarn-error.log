@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js init -help
+
+PATH: 
+  /usr/local/go/bin:/usr/local/texlive/2016/bin/universal-darwin:/usr/local/bin:/usr/local/opt/node/bin:/usr/local/opt/yarn/bin:/Applications/rubystack/node_modules/typescript/bin:/Applications/rubystack/node_modules/sails/bin:/usr/local/Homebrew/bin:/Applications/rubystack:/Applications/rubystack/perl/bin:/Applications/rubystack/git/bin:/Applications/rubystack/nginx/sbin:/Applications/rubystack/sqlite/bin:/Applications/rubystack/php/bin:/Applications/rubystack/python/bin:/Applications/rubystack/mysql/bin:/Applications/rubystack/postgresql/bin:/Applications/rubystack/apache2/bin:/Applications/rubystack/ruby/bin:/Applications/rubystack/common/bin:/Users/adlifariz/.nvm/versions/node/v10.15.1/bin:/usr/local/go/bin:/usr/local/texlive/2016/bin/universal-darwin:/usr/local/bin:/usr/local/opt/node/bin:/usr/local/opt/yarn/bin:node_modules/sails/bin:node_modules/typescript/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/opt/X11/bin:/Users/adlifariz/Library/Android/sdk/tools:/Users/adlifariz/Library/Android/sdk/tools/bin:/Users/adlifariz/Library/Android/sdk/platform-tools:/Applications/rubystack/go/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:125657:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:783:16)
+      at ReadStream.onkeypress (readline.js:168:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1022:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:283:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
